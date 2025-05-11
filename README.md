@@ -1,12 +1,15 @@
-# News Article Classification Project
-
-This project implements a news article classification system to predict categories such as *business*, *entertainment*, *health*, and *technology*. It explores various machine learning models and their performance using two common feature extraction techniques: **TF-IDF** and **Bag-of-Words (BoW)**. The models evaluated include traditional machine learning algorithms and transformer-based models, specifically  **DistilBERT**.
+# News Article Classification Project.
 
 ## Overview
 
 The goal of this project is to build a robust classification system for news articles using different models, such as **Logistic Regression**, **Support Vector Machines (SVM)**, **Naive Bayes**, **K-Nearest Neighbors (KNN)**, **Random Forest**, and **DistilBERT**. The system was tested on a publicly available Kaggle dataset with the aim of comparing the performance of traditional machine learning algorithms versus a transformer-based model (DistilBERT). 
 
-The project explores how various models perform in terms of classification accuracy and computational efficiency, considering the constraints of running models like DistilBERT on platforms like Google Colab free tier.
+## Data Preprocessing
+
+- Data was scraped using the `newspaper3k` library, with additional handling for JavaScript-rendered content using `requests-html`.
+- The text was preprocessed (lowercased, tokenized, lemmatized, and stopwords removed).
+- Class imbalance was addressed using undersampling, resulting in a balanced dataset of 26,216 articles.
+
 
 ## Models & Techniques
 
