@@ -49,7 +49,3 @@ The results highlight the performance of the models with respect to their classi
 
 This project demonstrates the strengths of both traditional machine learning models and deep learning models (such as DistilBERT) for news article classification. The **KNN** model with **TF-IDF** offers a compelling trade-off between high accuracy and computational efficiency. On the other hand, **DistilBERT** provides state-of-the-art accuracy but is more resource-intensive, making it less practical for real-time applications on platforms with limited resources.
 
-## Installation
-
-1. Clone this repository:
-https://github.com/Habibu-Ahmad/news-article-classification.git
