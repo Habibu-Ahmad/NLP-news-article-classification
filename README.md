@@ -1,4 +1,4 @@
-# News Article Classification Project.
+# News Article Classification with Machine Learning and Deep Learning Models
 
 ## Overview
 
@@ -52,3 +52,4 @@ This project demonstrates the strengths of both traditional machine learning mod
 ## Installation
 
 1. Clone this repository:
+https://github.com/Habibu-Ahmad/news-article-classification.git
