@@ -1,6 +1,6 @@
 # News Article Classification Project
 
-This project implements a news article classification system to predict categories such as *business*, *entertainment*, *health*, and *technology*. It explores various machine learning models and their performance using two common feature extraction techniques: **TF-IDF** and **Bag-of-Words (BoW)**. The models evaluated include traditional machine learning algorithms and transformer-based models, specifically **DistilBERT**.
+This project implements a news article classification system to predict categories such as *business*, *entertainment*, *health*, and *technology*. It explores various machine learning models and their performance using two common feature extraction techniques: **TF-IDF** and **Bag-of-Words (BoW)**. The models evaluated include traditional machine learning algorithms and transformer-based models, specifically  **DistilBERT**.
 
 ## Overview
 
